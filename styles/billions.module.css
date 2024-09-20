@@ -21,11 +21,8 @@
   opacity: 1;
 }
 
-.billions a {
-  text-align: center;
-}
 .title {
-  margin: 10px 0;
+  margin: 15px 0;
   font-size: 24px;
   font-weight: bold;
 }

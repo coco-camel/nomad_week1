@@ -21,13 +21,14 @@ export default function BillionsDetail({
   bio,
   financialAssets,
 }: BillionsDetailProps) {
+  const netWorthInt = Math.floor(parseFloat(netWorth) / 1000);
   return (
     <div className={styles.container}>
       <div className={styles.detail}>
         <img src={squareImage} />
         <h1>{name}</h1>
-        <p>netWorth:{netWorth}</p>
-        <p>country:{country}</p>
+        <p>NetWorth:{netWorthInt} Billion</p>
+        <p>Country:{country}</p>
         <p>{bio}</p>
       </div>
       <div className={styles.assets}>
