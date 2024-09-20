@@ -1,5 +1,5 @@
-import { API_URL } from "../../(home)/page";
 import BillionsDetail from "../../../components/billionsDetail";
+import { API_URL } from "../../../config";
 
 async function getPerson(id: string) {
   const response = await fetch(`${API_URL}/person/${id}`);

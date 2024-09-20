@@ -1,11 +1,10 @@
 import Billions from "../../components/billions";
+import { API_URL } from "../../config";
 import styles from "../../styles/home.module.css";
 
 export const metadata = {
   title: "Billions",
 };
-
-export const API_URL = "https://billions-api.nomadcoders.workers.dev";
 
 async function getPerson() {
   // await new Promise((resolve) => setTimeout(resolve, 1000));
