@@ -1,0 +1,31 @@
+.billions {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+  cursor: pointer;
+  place-items: center;
+  background-color: #121b20;
+}
+.billions img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.billions img {
+  opacity: 0.7;
+}
+
+.billions img:hover {
+  opacity: 1;
+}
+
+.billions a {
+  text-align: center;
+}
+.title {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}

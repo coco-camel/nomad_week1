@@ -1,0 +1,45 @@
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+.detail {
+  padding: 60px 40px;
+  background-color: #121b20;
+}
+
+.detail h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.detail p {
+  margin: 10px 0;
+  line-height: 30px;
+}
+
+.assets {
+  margin-top: 50px;
+  padding: 60px 40px;
+  background-color: #121b20;
+}
+.assets h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.assetsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin: 30px auto;
+}
+.assetsContainer div {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.assetsContainer p {
+  padding: 10px 0;
+}
